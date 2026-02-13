@@ -18,7 +18,7 @@
 .profile-image{
     width: 250px;
     max-width: 100%; /*Prevent overflow on small screen*/
-    height: auto;   /*Keeps aspect ratio*/
+    height: 250px;   /*Keeps aspect ratio*/
     margin: 0 auto; /*It tells the browser to split the reamining sapce equally to Right and left*/
 }
 
@@ -27,7 +27,10 @@ header{
     align-items: center; /*vertical alignment*/
     justify-content: space-between; /*space between text and image*/
     flex-wrap: wrap; /*whether flex items are forced onto a single line or not*/
-    padding: 20px;
+}
+
+article{
+    padding:20px;
 }
 
 .greeting {
@@ -45,6 +48,7 @@ header{
     body {
         flex-direction: column; /*Stackign vertically*/
         text-align: center; /*centers the text in the column*/
+        
     }
 
     .profile-image{
