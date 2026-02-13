@@ -78,12 +78,12 @@ Through the integrated use of AI, I mastered the following:
 - **[3] Objects**: Utilizing the `Date` object and `getHours()`.
 
 ### CSS & Styling
-* **Dark Theme Logic**: Used `.dark-theme` parent class to toggle background and text colors.
-* **Descendant Selectors**: Styled `a` and `button` tags specifically when inside the dark theme.
-* **Flexbox Layout**: Used `display: flex`, `align-items`, and `justify-content` for header alignment.
-* **Responsive Stacking**: Used `flex-wrap` and `flex-direction: column` to handle smaller screens.
-* **Media Queries**: Applied `@media` to detect `max-width: 768px` and `portrait` orientation.
-* **Image Scaling**: Used `max-width: 100%` and `height: auto` to prevent overflow.
+* **[1] Dark Theme Logic**: Used `.dark-theme` parent class to toggle background and text colors.
+* **[2] Descendant Selectors**: Styled `a` and `button` tags specifically when inside the dark theme.
+* **[3] Flexbox Layout**: Used `display: flex`, `align-items`, and `justify-content` for header alignment.
+* **[4] Responsive Stacking**: Used `flex-wrap` and `flex-direction: column` to handle smaller screens.
+* **[5] Media Queries**: Applied `@media` to detect `max-width: 768px` and `portrait` orientation for the whole body.
+* **[6] Image Scaling**: Used `max-width: 100%` and `height: auto` to prevent overflow.
 
 
 

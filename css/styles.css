@@ -18,14 +18,15 @@
 .profile-image{
     width: 250px;
     max-width: 100%; /*Prevent overflow on small screen*/
-    height: auto; /*Keeps aspect ratio*/
+    height: auto;   /*Keeps aspect ratio*/
+    margin: 0 auto; /*It tells the browser to split the reamining sapce equally to Right and left*/
 }
 
 header{
     display: flex; /*Activate flex box*/
     align-items: center; /*vertical alignment*/
     justify-content: space-between; /*space between text and image*/
-    flex-wrap: wrap; /*whether flex items are forced onto a single line or*/
+    flex-wrap: wrap; /*whether flex items are forced onto a single line or not*/
     padding: 20px;
 }
 
@@ -41,12 +42,12 @@ header{
 (orientation: portrait) → apply when device is vertical
 */
 @media (max-width: 768px) and (orientation: portrait){
-    header {
+    body {
         flex-direction: column; /*Stackign vertically*/
         text-align: center; /*centers the text in the column*/
     }
 
-    .profile-image {
+    .profile-image{
         margin-top: 20px;
     }
 }
